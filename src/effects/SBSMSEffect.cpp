@@ -200,7 +200,8 @@ bool EffectSBSMS::ProcessLabelTrack(LabelTrack *lt)
 double EffectSBSMS::getInvertedStretchedTime(double rateStart, double rateEnd, SlideType slideType, double outputTime)
 {
    Slide slide(slideType,rateStart,rateEnd,0);
-   return slide.getInverseStretchedTime(outputTime);
+   return 0;
+    // return slide.getInverseStretchedTime(outputTime);
 }
 
 double EffectSBSMS::getRate(double rateStart, double rateEnd, SlideType slideType, double t)
