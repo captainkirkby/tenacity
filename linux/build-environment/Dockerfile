@@ -20,4 +20,4 @@ RUN ["bash", "-ex", "dependencies.sh"]
 COPY ["entrypoint.sh", "/tenacity/"]
 RUN dos2unix entrypoint.sh
 
-CMD ["bash", "-ex", "./entrypoint.sh"]
+RUN ["bash", "-ex", "./entrypoint.sh"]
