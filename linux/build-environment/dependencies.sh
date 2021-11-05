@@ -12,7 +12,9 @@ apt_packages_basic=(
 )
 
 apt_packages_minimal_deps=(
+    libgtk-3-dev
     libgtk2.0-dev
+    libwxgtk3.0-gtk3-dev
     libasound2-dev
     libavformat-dev
     libjack-jackd2-dev
