@@ -4,7 +4,7 @@ conan --version
 
 if [ ! -d "tenacity" ]
 then
-    git clone https://github.com/tenacityteam/tenacity
+    git clone https://github.com/captainkirkby/tenacity
 fi
 
 mkdir -p build
